@@ -1,0 +1,64 @@
+- licenci API netreba resit
+- let registrovat jen autentikovany clen klubu, letat muze kdokoliv
+- co registrovat za info:
+    - cas vzletu a pristani
+    - kdo leti
+    - co za letadlo
+    - imatrikulace
+    - ukol (libovolny retezec, typicky cisla)
+- cele to je pro jedno letiste
+- fakturacni udaje pro lidi co nezname!
+- pilot ne nutne z registru
+- prihlaseni - provadime my, 3. strana jen seznam + id + jmeno + (fakt. udaje)
+- 3 obrazovky:
+    - seznam leticich letadel
+    - zadani letu
+    - zobrazeni reportu naletu obdobi
+- 2 role (zadani + export?)
+- max 50 letu denne, radove jednotky kokurentnich pristupu
+- pamatovat cela historie
+- pristani natukat zpetne
+- imutabilita po pristani spis ne potreba ale kdovi
+- kazdy napsat cas pristani, ostatni detaily editovat jen superadmin
+- editace cehokoliv superadminem
+- zadny audit log neni potreba
+- mame casto pouzivana letadla (v klubu), ale musime umet i jina
+- chceme min volbu aby si system nepamatoval info o letadlu
+- letadlo:
+    - typ
+    - imatrikulace (SPZ)
+- zmeny v aeroklubu malo caste, lze zmenit migraci
+- nejak musime vymyslet jak import (treba dostaneme na papire)
+- ZTRATA DAT PROBLEM!
+- nalet letadel se pocita z vystupu z aplikace -> je to dulezite
+- lety se uctuji pilotujici osobe (ztrata 1 letu neni zas tak kriticka ale cela historie dulezita)
+- v noci nemusi byt dostupna
+- netolerujeme nedostupnost (obviously)
+- rozsiritelnost aplikace - zatim ne ale v budoucnu mozna
+- historicka data dohledatelna, treba prodani/pad letadla resit migraci
+- web full featury na mobile
+- pobezi na PC vnitrni site letiste (pouze 1) - vymezit!
+- zatim nemame DB
+- zatim se PC nezalohuje (my to musime zaridit)
+- asi se vymezit i proti nedostupnosti API
+- muze bezet i jinde ale byt levne
+- GDPR (snad)
+- registrace bud migraci nebo superadmin v UI (je to na nas)
+- API 3. api ma https, blizsi info pozdeji
+- neni nutne push notifikace
+- export je manualni
+- propagace z api do nasi aplikace radove ihned (sekundy)
+- konflikty neresit (treba 2 lidi stejny let - lidi si to vyresi sami)
+
+### Vlecny
+- vlecnu plati pilot vetrone
+- muze byt soukroma vlecna (muze a nemusi byt klub)
+- evidovat jak bylo letadlo vytazeno
+- vlecny to same jako vetrone - mame caste ale umet musime vsechny
+- api nema s vlecnami nic spolecneho
+- evidovat kdo pilotoval vlecne letadlo
+- existuji motorove vetrone (muzou startovat samy?)
+- penize se pocitaji v externim systemu
+- mame nabidnout treba i support
+- pouze CZ lokalizace, nepredpoklada se preklad
+- bezne mobilni platformy (ale je to webapp, musi to byt pouzitelne)
