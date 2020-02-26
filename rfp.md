@@ -62,3 +62,31 @@
 - mame nabidnout treba i support
 - pouze CZ lokalizace, nepredpoklada se preklad
 - bezne mobilni platformy (ale je to webapp, musi to byt pouzitelne)
+
+
+### Dalsi pozadavky, co zmínit v nabídce
+- Profil společnosti, zkušenosti, nepřehnat
+- Podporované prohlížeče, responsivity
+- Architektura, jaký počítač tam je
+- Plán do kdy bude, která část hotová (analýza, prototyp, předání, ostrý start)
+- Jak bude složený tým, jejich odbornost, znalosti, zkušenosti
+- Tabulka rozdělení chyb, kritičnost (lze, nelze obejít, kosmetické) a závažnost (jak hodně ovlivňuje splnění funkčních a nefunkčních  požadavků)
+- Odhady pracnosti a ceny!!!
+- Rozdělení obrazovek podle pracnosti a jejich ocenění, včetně zdůvodnění
+- U tažných letadel se eviduje to samé co u letadel, typ, imatrikulace, pilot, uloha, cas vzletu, cas pristani, neni kopilot, pokud není prováděn výcvik
+- migrace dat, 
+- sablona pro vyplnení letu, pripadne podle posledniho letu, který byl zadán, ten den
+	- kromě času a pouze u vlečny
+- není třeba řešit validaci časů, jestli dávají smysl
+- negativní vymezené - nelze letet pres půlnoc
+- má to běžet pořád a odstávky v noci nebo při špatném počasí
+- ztráta dat ohrozí:
+	- pilot kluzáku platí za let vlecny i kluzaku
+	- letadlo musí mít revize
+	- za co jsme zodpovědní
+- GDPR neřešíme
+- připojení k internetu je dostatečné
+- komunikace musí být šifrovaná, můžeme je naučit správu certifikátu a nemusíme to potom dělat
+- Letkov Aeroklub
+- windows 10
+- Word, PowerPoint, Libreoffice, PDF
